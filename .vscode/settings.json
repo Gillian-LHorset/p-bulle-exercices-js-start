@@ -70,7 +70,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\gigasecond\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_cc6600"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\hello-world\\",
@@ -166,35 +166,35 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\amusement-park\\.docs\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\amusement-park\\amusement-park.js\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\amusement-park\\amusement-park.spec.js\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\amusement-park\\LICENSE\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\vehicle-purchase\\.docs\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\vehicle-purchase\\LICENSE\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\vehicle-purchase\\vehicle-purchase.js\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\vehicle-purchase\\vehicle-purchase.spec.js\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         }
     ]
 }

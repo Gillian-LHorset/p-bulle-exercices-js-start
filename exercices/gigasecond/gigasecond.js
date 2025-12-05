@@ -2,7 +2,7 @@
 // This is only a SKELETON file for the 'Gigasecond' exercise. It's been provided as a
 // convenience to get you started writing code faster.
 //
-
-export const gigasecond = () => {
-  throw new Error('Remove this line and implement the function');
+const oneGigaSecond = 1000000000000;
+export const gigasecond = (date) => {
+  return new Date(date.getTime() + oneGigaSecond)
 };
