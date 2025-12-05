@@ -142,7 +142,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\space-age\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\train-driver\\",
@@ -210,6 +210,22 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\captains-log\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\space-age\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\space-age\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\space-age\\space-age.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\space-age\\space-age.spec.js\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
