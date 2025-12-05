@@ -26,7 +26,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\captains-log\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\coordinate-transformation\\",
@@ -70,7 +70,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\gigasecond\\",
-            "color": "foldercolorizer.color_cc6600"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\hello-world\\",
@@ -194,6 +194,22 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\vehicle-purchase\\vehicle-purchase.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\captains-log\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\captains-log\\captains-log.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\captains-log\\captains-log.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\captains-log\\LICENSE\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
