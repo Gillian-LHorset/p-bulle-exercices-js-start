@@ -4,11 +4,10 @@
 //
 
 export const age = (planet, age) => {
-  const planetArray = ["earth", "mercury", "venus", "mars", "jupiter", "saturn", "uranus", "neptune"]
-  const orbitalPeriodArray = [1.0 , 0.2408467, 0.61519726, 1.8808158, 11.862615, 29.447498, 84.016846, 164.79132]
+  const planetObject = {earth: 1.0 , mercury: 0.2408467, venus:0.61519726, mars: 1.8808158, jupiter: 11.862615, saturn: 29.447498, uranus: 84.016846, neptune: 164.79132}
   if (planet == "Sun" || planet == "pluton") {
     throw new Error ('not a planet')
   } else {
-    return (Number)((age / (orbitalPeriodArray[planetArray.indexOf(planet)] * 60 * 60 * 24 * 365.25)).toFixed(2))
+    return (Number)((age / (planetObject[planet] * 60 * 60 * 24 * 365.25)).toFixed(2))
   }
 };

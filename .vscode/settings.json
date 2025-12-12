@@ -50,7 +50,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-looping-enchantments\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_cc6600"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-transformative-enchantments\\",
@@ -227,6 +227,22 @@
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\space-age\\space-age.spec.js\\",
             "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-looping-enchantments\\.docs\\",
+            "color": "foldercolorizer.color_cc6600"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-looping-enchantments\\enchantments.js\\",
+            "color": "foldercolorizer.color_cc6600"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-looping-enchantments\\enchantments.spec.js\\",
+            "color": "foldercolorizer.color_cc6600"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-looping-enchantments\\LICENSE\\",
+            "color": "foldercolorizer.color_cc6600"
         }
     ]
 }
