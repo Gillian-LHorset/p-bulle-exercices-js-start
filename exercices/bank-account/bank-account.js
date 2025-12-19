@@ -5,27 +5,50 @@
 
 export class BankAccount {
   constructor() {
-    throw new Error('Remove this line and implement the function');
+  account = undefined;
   }
 
   open() {
-    throw new Error('Remove this line and implement the function');
+    if (account === undefined) {
+    account = {balance: 0}
+    } else {
+      throw new ValueError
+    }
   }
 
   close() {
-    throw new Error('Remove this line and implement the function');
+    if (account != undefined) {
+    account = undefined
+    } else {
+      throw new ValueError
+    }
   }
 
-  deposit() {
-    throw new Error('Remove this line and implement the function');
+  deposit(depos) {
+      if (account != undefined && account.balance != undefined && depos >= 0) {
+        account.balance += depos
+      } else {
+        throw new ValueError
+      }
   }
 
-  withdraw() {
-    throw new Error('Remove this line and implement the function');
+  withdraw(withdrawMoney) {    
+    if (account != undefined) {
+      if (account.balance >= withdrawMoney && withdrawMoney >= 0) {
+        account.balance -= withdrawMoney
+    } else {
+      throw new ValueError
+    }} else {
+      throw new ValueError
+    }
   }
 
   get balance() {
-    throw new Error('Remove this line and implement the function');
+    if (account != undefined) {
+    return account.balance
+    } else {
+      throw new ValueError
+    }
   }
 }
 

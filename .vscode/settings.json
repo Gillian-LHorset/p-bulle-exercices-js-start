@@ -243,6 +243,10 @@
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-looping-enchantments\\LICENSE\\",
             "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bank-account\\",
+            "color": "foldercolorizer.color_cc6600"
         }
     ]
 }
