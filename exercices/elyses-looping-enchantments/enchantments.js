@@ -29,19 +29,19 @@ export function cardTypeCheck(stack, card) {
  */
 export function determineOddEvenCards(stack, type) {
   // 🚨 Use a `for...of` loop
-  let count = 0;
   if (type) {
-    for (const number of stack) {
-      if (number % 2 == 0) {
-        count++
-      }
-    } 
+    return nomberOfStack(0, stack)
   } else {
-      for (const number of stack) {
-      if (number % 2 == 1) {
-        count++
-      }
-    } 
+    return nomberOfStack(1, stack)
   }
+}
+
+function nomberOfStack(moduloValue, stack) {
+  let count = 0;
+  for (const number of stack) {
+    if (number % 2 == moduloValue) {
+      count++
+    }
+  } 
   return count
 }
