@@ -86,7 +86,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\lucky-numbers\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\matrix\\",
@@ -290,6 +290,22 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\.docs\\introduction.md\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\lucky-numbers\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\lucky-numbers\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\lucky-numbers\\lucky-numbers.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\lucky-numbers\\lucky-numbers.spec.js\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
