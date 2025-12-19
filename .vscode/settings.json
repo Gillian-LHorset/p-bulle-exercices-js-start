@@ -17,10 +17,6 @@
             "color": "foldercolorizer.color_009933"
         },
         {
-            "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\",
-            "color": "foldercolorizer.color_cc3333"
-        },
-        {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\book-store\\",
             "color": "foldercolorizer.color_cc3333"
         },
@@ -246,7 +242,55 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\bank-account\\",
-            "color": "foldercolorizer.color_cc6600"
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bank-account\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bank-account\\.docs\\instructions.md\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bank-account\\.docs\\introduction.md\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bank-account\\bank-account.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bank-account\\bank-account.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\bob.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\bob.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\.docs\\instructions.md\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\bob\\.docs\\introduction.md\\",
+            "color": "foldercolorizer.color_009933"
         }
     ]
 }
