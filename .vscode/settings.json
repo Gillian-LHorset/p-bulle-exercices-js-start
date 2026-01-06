@@ -142,7 +142,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\train-driver\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\translation-service\\",
@@ -322,6 +322,18 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-destructured-enchantments\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\train-driver\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\train-driver\\train-driver.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\train-driver\\train-driver.spec.js\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
