@@ -110,7 +110,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\pizza-order\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\poetry-club-door-policy\\",
@@ -334,6 +334,22 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\train-driver\\train-driver.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\pizza-order\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\pizza-order\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\pizza-order\\pizza-order.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\pizza-order\\pizza-order.spec.js\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
