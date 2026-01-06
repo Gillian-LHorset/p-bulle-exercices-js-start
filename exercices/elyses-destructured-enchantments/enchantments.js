@@ -9,7 +9,8 @@
  * @returns {Card} the first card in the deck
  */
 export function getFirstCard(deck) {
-  throw new Error('Implement the getFirstCard function');
+  let [firstCard] = deck
+  return firstCard
 }
 
 /**
@@ -20,7 +21,8 @@ export function getFirstCard(deck) {
  * @returns {Card} the second card in the deck
  */
 export function getSecondCard(deck) {
-  throw new Error('Implement the getSecondCard function');
+  let [firstCard, secondCard] = deck
+  return secondCard
 }
 
 /**
@@ -31,7 +33,8 @@ export function getSecondCard(deck) {
  * @returns {[Card, Card]} new deck with the 2 cards swapped
  */
 export function swapTwoCards(deck) {
-  throw new Error('Implement the swapTopTwoCards function');
+  let [firstCard, secondCard] = deck
+  return [secondCard, firstCard]
 }
 
 /**
@@ -42,7 +45,8 @@ export function swapTwoCards(deck) {
  * @returns {[Card, Card, Card]} new deck with the 3 cards shifted by one position
  */
 export function shiftThreeCardsAround(deck) {
-  throw new Error('Implement the discardTopCard function');
+  let [firstCard, secondCard, thirdCard] = deck
+  return [secondCard, thirdCard, firstCard]
 }
 
 /**
@@ -53,8 +57,7 @@ export function shiftThreeCardsAround(deck) {
  * @returns {Card[]} the pile named chosen
  */
 export function pickNamedPile(piles) {
-  // 🚨 Do NOT use piles.chosen or piles.disregarded.
-  throw new Error('Implement the pickNamedPile function');
+  return piles.chosen
 }
 
 /**
@@ -67,5 +70,7 @@ export function swapNamedPile(piles) {
   // 🪄 Don't break the magic.
   // 🚨 Do NOT use piles.chosen or piles.disregarded.
   // 🚨 Do NOT touch the next line or Elyse will accidentally reveal the trick.
+  let chosen = piles.disregarded
+  let disregarded = piles.chosen
   return { chosen, disregarded };
 }

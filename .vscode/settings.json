@@ -38,7 +38,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-destructured-enchantments\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-enchantments\\",
@@ -306,6 +306,22 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\lucky-numbers\\lucky-numbers.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-destructured-enchantments\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-destructured-enchantments\\enchantments.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-destructured-enchantments\\enchantments.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-destructured-enchantments\\LICENSE\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
