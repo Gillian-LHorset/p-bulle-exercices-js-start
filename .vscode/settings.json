@@ -18,7 +18,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\book-store\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_cc6600"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\captains-log\\",
@@ -351,6 +351,22 @@
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\pizza-order\\pizza-order.spec.js\\",
             "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\book-store\\.docs\\",
+            "color": "foldercolorizer.color_cc6600"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\book-store\\book-store.js\\",
+            "color": "foldercolorizer.color_cc6600"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\book-store\\book-store.spec.js\\",
+            "color": "foldercolorizer.color_cc6600"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\book-store\\LICENSE\\",
+            "color": "foldercolorizer.color_cc6600"
         }
     ]
 }
