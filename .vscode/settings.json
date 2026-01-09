@@ -30,7 +30,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\custom-signs\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\elyses-analytic-enchantments\\",
@@ -382,6 +382,22 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\mixed-juices\\mixed-juices.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\custom-signs\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\custom-signs\\custom-signs.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\custom-signs\\custom-signs.spec.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\custom-signs\\LICENSE\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
