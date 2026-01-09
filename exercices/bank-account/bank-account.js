@@ -4,50 +4,56 @@
 //
 
 export class BankAccount {
+  #balance;
+  #open;
+  
   constructor() {
-  account = undefined;
+    this.#balance = 0;
+    this.#open = false;
   }
 
   open() {
-    if (account === undefined) {
-    account = {balance: 0}
+    if (!this.#open) {
+    this.#open = true;
+    this.#balance = 0;
     } else {
-      throw new ValueError
+      throw new ValueError()
     }
   }
 
   close() {
-    if (account != undefined) {
-    account = undefined
+    if (this.#open) {
+    this.#open = false;
+    this.#balance = 0;
     } else {
-      throw new ValueError
+      throw new ValueError()
     }
   }
 
   deposit(depos) {
-      if (account != undefined && account.balance != undefined && depos >= 0) {
-        account.balance += depos
+      if (this.#open && depos >= 0) {
+        this.#balance += depos
       } else {
-        throw new ValueError
+        throw new ValueError()
       }
   }
 
   withdraw(withdrawMoney) {    
-    if (account != undefined) {
-      if (account.balance >= withdrawMoney && withdrawMoney >= 0) {
-        account.balance -= withdrawMoney
+    if (this.#open) {
+      if (this.#balance >= withdrawMoney && withdrawMoney >= 0) {
+        this.#balance -= withdrawMoney
     } else {
-      throw new ValueError
+      throw new ValueError()
     }} else {
-      throw new ValueError
+      throw new ValueError()
     }
   }
 
   get balance() {
-    if (account != undefined) {
-    return account.balance
+    if (this.#open) {
+    return this.#balance
     } else {
-      throw new ValueError
+      throw new ValueError()
     }
   }
 }
