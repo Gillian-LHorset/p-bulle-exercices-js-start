@@ -94,7 +94,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\mixed-juices\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\nullability\\",
@@ -366,6 +366,22 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\book-store\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\mixed-juices\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\mixed-juices\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\mixed-juices\\mixed-juices.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\mixed-juices\\mixed-juices.spec.js\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
