@@ -4,90 +4,46 @@
 //
 
 export const cost = (books) => {
-  let finalPrice = 0
-
-  let priceBookArray = 0
-  let priceDuplicateArray = 0
-
-
-  let bookArray = []
-  let duplicateArray = []
-
-  for (let book of books) {
-    if (!bookArray.includes(book)) {
-      bookArray.push(book)
-    } else {
-      duplicateArray.push(book)
-    }
+  const BOOK_PRICE = 800
+  const DISCOUNTS = {
+    1: 1.00,
+    2: 0.95,
+    3: 0.90,
+    4: 0.80,
+    5: 0.75
   }
 
-  let newArray = []
-  let newArray2 = []
+  const counts = Array(5).fill(0)
+  books.forEach(book => counts[book - 1]++)
 
-  let testPrice = 0
-  let testPrice2 = 0
-
-  for (let book of books) {
-    let i = 0
-    let y = 0
-
-
-    if (!newArray.includes(book) || !newArray2.includes(book) && i % 2 === 0) {
-      newArray.push(book)
-    } else if (!newArray.includes(book) || !newArray2.includes(book) && i % 2 === 1) {
-      newArray2.push(book)
-    } else {
-      if (y % 2 === 0) {
-        newArray.push(book)
-      } else {
-        newArray2.push(book)
-      }
-      y++
-    }
-    i++
-  }
-
-
-  priceBookArray = calculBooksPrice(bookArray)
-  priceDuplicateArray = calculBooksPrice(duplicateArray)
-
-  priceBookArray = priceCalculator(bookArray, priceBookArray)
-  priceDuplicateArray = priceCalculator(duplicateArray, priceDuplicateArray)
-
-
+  let groups = []
   
-  testPrice = calculBooksPrice(newArray)
-  testPrice2 = calculBooksPrice(newArray2)
-
-  testPrice = priceCalculator(newArray, testPrice)
-  testPrice2 = priceCalculator(newArray2, testPrice2)
-
-  if (priceBookArray + priceDuplicateArray < testPrice + testPrice2 || !(newArray.length + newArray2.length === 8)) {
-    finalPrice = priceBookArray + priceDuplicateArray
-  } else {
-    finalPrice = testPrice + testPrice2
+  while (Math.max(...counts) > 0) {
+    let groupSize = 0
+    for (let i = 0; i < 5; i++) {
+      if (counts[i] > 0) {
+        groupSize++
+        counts[i]--
+      }
+    }
+    groups.push(groupSize)
   }
-  return finalPrice
-};
+  
+  let indexOf5 = groups.indexOf(5)
+  let indexOf3 = groups.indexOf(3)
 
-function calculBooksPrice(books) {
-  let total = 0;
-  for (let book in books) {
-    total += 800
+  while (indexOf5 !== -1 && indexOf3 !== -1) {
+    groups[indexOf5] = 4
+    groups[indexOf3] = 4
+    
+    indexOf5 = groups.indexOf(5)
+    indexOf3 = groups.indexOf(3)
   }
+
+  let total = 0
+  groups.forEach(size => {
+    total += size * BOOK_PRICE * DISCOUNTS[size]
+  })
+
   return total
-}
-
-function priceCalculator(array, price) {
-  if (array.length === 2) {
-    price = price / 100 * 95
-  } else if (array.length === 3) {
-    price = price / 100 * 90
-  } else if (array.length === 4) {
-    price = price / 100 * 80    
-  } else if (array.length === 5) {
-    price = price / 100 * 75    
-  }
-
-  return price
 }
