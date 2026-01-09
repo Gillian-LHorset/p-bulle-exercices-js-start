@@ -126,7 +126,7 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\resistor-color\\",
-            "color": "foldercolorizer.color_cc3333"
+            "color": "foldercolorizer.color_009933"
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\resistor-color-duo\\",
@@ -398,6 +398,22 @@
         },
         {
             "folderPath": "p-bulle-exercices-js-start\\exercices\\custom-signs\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\resistor-color\\.docs\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\resistor-color\\LICENSE\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\resistor-color\\resistor-color.js\\",
+            "color": "foldercolorizer.color_009933"
+        },
+        {
+            "folderPath": "p-bulle-exercices-js-start\\exercices\\resistor-color\\resistor-color.spec.js\\",
             "color": "foldercolorizer.color_009933"
         }
     ]
